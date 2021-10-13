@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+.box-shadow{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+}
+
+.card-color{
+    background-color:rgb(226, 229, 227);
+}
+.text3{
+    font-size: 40px;
+    font-family: Garamond, serif;
+    font-weight: 60px;
+    color: rgb(94, 44, 22);
+    margin-top: 10px;
+  }
+
+.text2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkred;
+}
+.btn-color{
+    background-color: rgb(20, 8, 2);
+    color:moccasin;
+    border-radius: 15;
+    font-size: 1rem;
+}
+
+.image{
+    width: 300px;
+    height: 220px;
+    position: relative;
+}
+
+.card-body{
+    z-index: 10;
+    position: relative;
+}

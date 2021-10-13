@@ -1,0 +1,20 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.nav-color{
+    color: rgb(243, 232, 232);
+    background-color:darkslategrey;
+    font-family:sans-serif;
+    font-size: 25px;
+}
+.text3{
+  font-size: 20px;
+  font-family: Garamond, serif;
+  font-weight: 30px;
+  color: antiquewhite;
+}
+.logo{
+  height:10px;
+  width: 30px;
+  margin-right: 10px;
+}

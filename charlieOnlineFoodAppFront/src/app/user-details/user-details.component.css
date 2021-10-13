@@ -1,0 +1,18 @@
+.btn-color1{
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgb(122, 74, 28);
+    color:moccasin;
+    border-radius: 15;
+    font-size: 1.1rem;
+    margin-left: 5%;
+}
+.btn-color2{
+    margin-top: 20px;
+    text-align: center;
+    background-color:rgb(42, 29, 88);
+    color:moccasin;
+    border-radius: 15;
+    font-size: 1.1rem;
+    margin-left: 89%;
+}

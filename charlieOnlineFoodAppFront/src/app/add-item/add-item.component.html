@@ -1,0 +1,56 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <mat-card>
+                    <div class="container text-center">
+
+                        <img src="../../assets/logo.jpg" alt="logo" style="height: 120px; width: 120px;" />
+                    </div>
+
+
+                    <h1 class="text-center">Add items to Menu !</h1>
+
+                    <form (ngSubmit)="formSubmitItem()">
+
+                        <!-- -----------Itemname field--------------------------- -->
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Item Name</mat-label>
+                            <input required [(ngModel)]="item.itemName" name="itemName" matInput
+                                placeholder="Enter Here">
+                        </mat-form-field>
+
+                        <!-- -----------Item Desc field--------------------- -------->
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Item Description</mat-label>
+                            <input required [(ngModel)]="item.itemDesc" name="itemDesc" matInput
+                                placeholder="Enter Here">
+                        </mat-form-field>
+
+                        <!-- -----------item price field--------------------- -------->
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Item Price</mat-label>
+                            <input required [(ngModel)]="item.price" name="price" matInput
+                                placeholder="Enter Here">
+                        </mat-form-field>
+
+                        <!-- ---------item image field--------------------- -------->
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Item Image</mat-label>
+                            <input [(ngModel)]="item.image" name="image" matInput
+                                placeholder="Enter Here">
+                        </mat-form-field>
+
+                        <!-- -----------    Buttons ------------------------ ------->
+
+                        <div class="container text-center ">
+                            <button type="submit" mat-raised-button color="primary">Add item</button>
+                            
+                            <button (click)="goToAdminMenu()" mat-raised-button color="accent" style="margin-left: 10px;" >View items</button>
+                        </div>
+                    </form>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

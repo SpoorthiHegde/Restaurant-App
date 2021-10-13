@@ -1,0 +1,29 @@
+<h1 class="text-center" style="margin-top: 20px;">Your Cart Details</h1>
+<div class="container">
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Cart Entry Id</th>
+                <th>Item Name</th>
+                <th>Menu Id</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>User Id</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cartDetail of cart">
+                <td>{{cartDetail.cartEntryId}}</td>
+                <td>{{cartDetail.itemName}}</td>
+                <td>{{cartDetail.menuId}}</td>
+                <td>{{cartDetail.price}}</td>
+                <td>{{cartDetail.quantity}}</td>
+                <td>{{cartDetail.userId}}</td>
+                <td><button mat-raised-button>Remove</button></td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="container" style="font-size: large;">Total Price </div>
+</div>

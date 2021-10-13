@@ -1,0 +1,19 @@
+<mat-toolbar class="nav-color">
+    <a [routerLink]="'/'" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>home</mat-icon>
+    </a>
+    <span>Charlie Food App</span>
+    <!-- <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>login</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button> -->
+    <span class="example-spacer"></span>
+    <a routerLink='' routerLinkActive="active" class="nav-color mr10 text3">Home</a>
+    <a routerLink='register' routerLinkActive="active" class="nav-color mr10 text3">Register</a>
+    <a routerLink='login' routerLinkActive="active" class="nav-color mr10 text3">Login</a>
+    <a routerLink='menu' routerLinkActive="active" class="nav-color mr10 text3">Menu</a>
+    <a routerLink='footer' routerLinkActive="active" class="nav-color mr10 text3">About</a>
+</mat-toolbar>
